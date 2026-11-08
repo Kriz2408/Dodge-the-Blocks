@@ -39,3 +39,19 @@ abstract class GameObject {
     public abstract void draw(Graphics2D g);
 }
 
+class Player extends GameObject {
+    private static final int SPEED = 7;
+    private boolean movingLeft;
+    private boolean movingRight;
+
+    public Player(int x, int y) {
+        super(x, y, 42, 42);
+    }
+
+    public void setMovingLeft(boolean movingLeft) {
+        this.movingLeft = movingLeft;
+    }
+
+    public void setMovingRight(boolean movingRight) {
+        this.movingRight = movingRight;
+    }
