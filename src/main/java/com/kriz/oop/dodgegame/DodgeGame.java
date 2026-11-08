@@ -97,7 +97,6 @@ class FallingBlock extends GameObject {
         this.color = color;
     }
 
-
 @Override
     public void update() {
         setY(getY() + speed);
@@ -118,3 +117,4 @@ class FallingBlock extends GameObject {
         );
     }
 }
+
