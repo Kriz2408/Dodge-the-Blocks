@@ -86,3 +86,13 @@ class Player extends GameObject {
         g.drawArc((int) getX() + 11, (int) getY() + 19, 20, 12, 200, 140);
     }
 }
+
+class FallingBlock extends GameObject {
+    private final int speed;
+    private final Color color;
+
+    public FallingBlock(int x, int y, int size, int speed, Color color) {
+        super(x, y, size, size);
+        this.speed = speed;
+        this.color = color;
+    }
