@@ -1,3 +1,4 @@
+ polymorphism delos santos
  @Override
     public void update() {
         setY(getY() + speed);
