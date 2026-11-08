@@ -1,4 +1,4 @@
-
+//Game Object Class
 abstract class GameObject {
     private double x;
     private double y;
